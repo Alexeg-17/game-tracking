@@ -39,4 +39,6 @@ Now you can track game scores with your friends!
 Unit tests have been provided using the Jest library and React Testing Library.
 To run the tests, use the following command:
 
-npm test
+```bash
+   npm test
+```
