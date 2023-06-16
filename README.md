@@ -14,7 +14,11 @@ This project is a game application developed with React. It allows to record and
 
    # Use
    Run the following command to start the application:
+
+   ```bash
    npm start
+```
+
    Open your web browser and go to http://localhost:3000 to see the application at work.
    
 
