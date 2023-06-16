@@ -21,10 +21,15 @@ This project is a game application developed with React. It allows to record and
 # How it works
 
 1- On the registration page, enter the names of the players in the corresponding fields.
+
 2- Click the "Continue" button to register the players' names.
+
 3- On the active players page, you can click the "Add Win" button to add a win to a player.
+
 4- The win difference will be displayed in the "Win Difference" section.
+
 5- If there is a player with more wins than the other player, it will be shown in the "Current Winner" section.
+
 6- You can save the game data to the local storage by clicking the "Save Game" button.
 
 Now you can track game scores with your friends!
@@ -33,4 +38,5 @@ Now you can track game scores with your friends!
 
 Unit tests have been provided using the Jest library and React Testing Library.
 To run the tests, use the following command:
+
 npm test
