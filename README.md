@@ -11,12 +11,13 @@ This project is a game application developed with React. It allows to record and
    ```bash
    npm install
 
+```
 
    # Use
    Run the following command to start the application:
    npm start
    Open your web browser and go to http://localhost:3000 to see the application at work.
-   ```
+   
 
 # How it works
 
@@ -39,4 +40,7 @@ Now you can track game scores with your friends!
 Unit tests have been provided using the Jest library and React Testing Library.
 To run the tests, use the following command:
 
+ ```bash
 npm test
+
+```
