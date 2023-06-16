@@ -1,0 +1,60 @@
+.players_container {
+  margin: 100px auto;
+  min-height: 200px;
+  width: 400px;
+  background-image: radial-gradient(
+    circle at 6.17% 50%,
+    #ffffff 0,
+    #ffffff 25%,
+    #ffffff 50%,
+    #f8f3f4 75%,
+    #f1e7ea 100%
+  );
+  padding: 10px;
+  border-radius: 10px;
+  color: #133d3b;
+}
+
+.players_container h1 {
+  text-align: center;
+  margin-bottom: 10px;
+}
+
+.active_players {
+  display: flex;
+  flex-direction: row;
+  justify-content: space-between;
+  align-items: center;
+}
+.active_players button {
+  height: 20px;
+  width: 100px;
+  font-size: 12px;
+}
+
+.players {
+  display: flex;
+  flex-direction: column;
+  padding: 20px;
+}
+
+.players .wins {
+  margin-top: 20px;
+}
+
+.addWin {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  flex-direction: column;
+  padding: 20px;
+}
+
+.addWin p {
+  margin-top: 20px;
+}
+
+.diference {
+  text-align: center;
+  margin-top: 10px;
+}

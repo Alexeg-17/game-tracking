@@ -1,38 +1,74 @@
-.App {
+@import url('https://fonts.googleapis.com/css2?family=Raleway:ital,wght@0,700;1,400&family=Schibsted+Grotesk&display=swap');
+
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+  font-family: 'Raleway', sans-serif;
+  font-family: 'Schibsted Grotesk', sans-serif;
+}
+
+body {
+  background: rgb(43, 138, 134);
+  background: linear-gradient(
+    90deg,
+    rgba(43, 138, 134, 1) 2%,
+    rgba(0, 122, 119, 1) 11%,
+    rgba(0, 71, 69, 1) 74%,
+    rgba(4, 90, 89, 1) 90%
+  );
+}
+
+.register_container {
+  margin: 100px auto;
+  min-height: 200px;
+  width: 200px;
+  background-image: radial-gradient(
+    circle at 6.17% 50%,
+    #ffffff 0,
+    #ffffff 25%,
+    #ffffff 50%,
+    #f8f3f4 75%,
+    #f1e7ea 100%
+  );
+  padding: 10px;
+  border-radius: 10px;
+  color: #133d3b;
+}
+
+.register_container h1 {
   text-align: center;
+  margin-bottom: 10px;
 }
 
-.App-logo {
-  height: 40vmin;
-  pointer-events: none;
+.player {
+  margin-bottom: 20px;
 }
 
-@media (prefers-reduced-motion: no-preference) {
-  .App-logo {
-    animation: App-logo-spin infinite 20s linear;
-  }
+.player input {
+  margin-top: 5px;
+  border-color: #133d3b solid 1px;
+  color: #133d3b;
+  padding: 5px 0px 5px 10px;
 }
 
-.App-header {
-  background-color: #282c34;
-  min-height: 100vh;
+.continue {
   display: flex;
-  flex-direction: column;
-  align-items: center;
-  justify-content: center;
-  font-size: calc(10px + 2vmin);
-  color: white;
+  place-content: center;
 }
 
-.App-link {
-  color: #61dafb;
-}
-
-@keyframes App-logo-spin {
-  from {
-    transform: rotate(0deg);
-  }
-  to {
-    transform: rotate(360deg);
-  }
+.continue button {
+  width: 100px;
+  padding: 3px;
+  background: rgb(43, 138, 134);
+  background: linear-gradient(
+    90deg,
+    rgba(43, 138, 134, 1) 2%,
+    rgba(0, 122, 119, 1) 11%,
+    rgba(4, 90, 89, 1) 90%
+  );
+  border: none;
+  border-radius: 5px;
+  color: #fff;
+  cursor: pointer;
 }

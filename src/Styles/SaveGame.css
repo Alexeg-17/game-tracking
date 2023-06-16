@@ -1,0 +1,23 @@
+.save {
+  display: flex;
+  place-content: center;
+}
+
+button {
+  margin-top: 20px;
+  width: 100px;
+  padding: 3px;
+  background: rgb(43, 138, 134);
+  background: linear-gradient(
+    90deg,
+    rgba(43, 138, 134, 1) 2%,
+    rgba(0, 122, 119, 1) 11%,
+    rgba(4, 90, 89, 1) 90%
+  );
+  border: none;
+  border-radius: 5px;
+  color: #fff;
+  cursor: pointer;
+  justify-content: center;
+  align-items: center;
+}
