@@ -3,10 +3,10 @@ module.exports = {
     browser: true,
     es2021: true,
   },
-  settings:{
-    react:{
-      version:"detect"
-    }
+  settings: {
+    react: {
+      version: "detect",
+    },
   },
   extends: ["standard", "plugin:react/recommended", "eslint-config-prettier"],
   parserOptions: {

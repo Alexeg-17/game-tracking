@@ -25,7 +25,7 @@ function RegisteredPlayers({ player1, player2 }) {
       counterPlayer2,
     };
     localStorage.setItem('gameData', JSON.stringify(gameData));
-    alert('¡Juego guardado en Local Storage!');
+    alert('Game successfully saved in Local Storage!');
   };
 
   return (
@@ -52,11 +52,14 @@ function RegisteredPlayers({ player1, player2 }) {
         </div>
       </div>
 
-      <div className='diference'>
-        <p>Win Difference: {winDifference}</p>
+      <div className='difference'>
+        <div>Win Difference: {winDifference}</div>
+      </div>
+
+      <div className='current_winner'>
         {winDifference > 0 && (
           <p>
-            Current Winner: {currentWinner} - Points: {currentWinnerPoints}
+            Current Winner: {currentWinner} with {currentWinnerPoints} wins
           </p>
         )}
       </div>

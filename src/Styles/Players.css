@@ -18,6 +18,7 @@
 .players_container h1 {
   text-align: center;
   margin-bottom: 10px;
+  font-size: 25px;
 }
 
 .active_players {
@@ -30,6 +31,7 @@
   height: 20px;
   width: 100px;
   font-size: 12px;
+  margin-top: 0px;
 }
 
 .players {
@@ -39,7 +41,7 @@
 }
 
 .players .wins {
-  margin-top: 20px;
+  margin-top: 10px;
 }
 
 .addWin {
@@ -51,10 +53,22 @@
 }
 
 .addWin p {
-  margin-top: 20px;
+  margin-top: 10px;
 }
 
-.diference {
+.difference {
+  margin: 15px auto;
+  width: 200px;
+  height: auto;
   text-align: center;
-  margin-top: 10px;
+  border: 1px solid #133d3b;
+  padding: 5px;
+}
+
+.current_winner {
+  margin: 15px auto;
+  width: 300px;
+  height: auto;
+  text-align: center;
+  padding: 5px;
 }
